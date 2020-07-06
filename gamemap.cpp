@@ -19,6 +19,7 @@ GameMap::GameMap()
 
 qint32 GameMap::getLength()
 {
+    qint32 test = 0;
     return map.size();
 }
 qint32 GameMap::getWidth()
